@@ -313,8 +313,8 @@ st.markdown("""
 def load_data():
     try:
         # Leer archivos Excel directamente desde el repo (GitHub o local)
-        df_encuesta = pd.read_excel("data/encuestas.xlsx")
-        df_inscripcion = pd.read_excel("data/inscripciones.xlsx")
+        df_encuesta = pd.read_excel("data/Encuesta para el proyecto _Asistente Institucional_  (respuestas)")
+        df_inscripcion = pd.read_excel("data/Inscripción ImpulsaT - TECAZUAY (respuestas) (1)")
 
         return df_encuesta, df_inscripcion
 
