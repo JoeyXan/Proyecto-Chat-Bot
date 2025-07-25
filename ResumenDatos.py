@@ -1360,7 +1360,7 @@ elif section == "🔍 Patrones y Predicciones":
 
     # Cargar el modelo entrenado (ajusta la ruta según donde guardes el modelo)
     try:
-        model_path = model_path = "models/mejor_modelo_prediccion.pkl"   # Asegúrate de guardar el modelo desde el .ipynb
+        model_path = model_path = "mejor_modelo_prediccion.pkl"   # Asegúrate de guardar el modelo desde el .ipynb
         pipeline = joblib.load(model_path)
         st.success("✅ Modelo de predicción cargado exitosamente")
     except FileNotFoundError:
