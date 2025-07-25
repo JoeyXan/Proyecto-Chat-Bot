@@ -1350,7 +1350,7 @@ elif section == "🔍 Patrones y Predicciones":
     """, unsafe_allow_html=True)
 
     # Importar bibliotecas necesarias para la predicción
-    import streamlit as st
+   
     import joblib
     import pandas as pd
     import numpy as np
