@@ -1,10 +1,10 @@
 streamlit
-requests
 pandas
 numpy
+requests
 plotly
 scikit-learn
 seaborn
-openpyxl
 joblib
 imbalanced-learn
+openpyxl
